@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My 2022 To Do</title>
+    <link rel="stylesheet" href="./to_do.css" />
+  </head>
+  <section class="container">
+    <div class="heading">
+      <h1 class="heading_title">Anna 2022 To Do</h1>
+    </div>
+    <form class="form">
+      <div>
+        <label class="form_label" for="todo">~ Today ~</label>
+        <input
+          class="form_input"
+          type="text"
+          id="todo"
+          name="to-do"
+          size="30"
+          required
+        />
+        <button class="button"><span>Submit</span></button>
+      </div>
+    </form>
+    <div>
+      <ul class="toDoList"></ul>
+    </div>
+  </section>
+  <body>
+    <!-- put your html elements here -->
+  </body>
+  <script type="module" src="./todoApp.js"></script>
+  <script src="./to_do.js"></script>
+  <script src="./to_do_header.js"></script>
+  <script src="./to_do_input.js"></script>
+  <script src="./to_do_item.js"></script>
+  <script src="./to_do_list.js"></script>
+</html>
